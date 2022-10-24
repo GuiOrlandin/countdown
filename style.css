@@ -47,6 +47,7 @@ h1 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    margin-top: 19px;
 }
 .time span {
     font-size: 14px;
@@ -56,14 +57,19 @@ h1 {
 }
 
 .time h2 {
+    /* position: relative; */
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
     font-weight: 400;
     color: #4D4C59;
 }
 
-.time::after {
-    content: ":";
+.time .colon {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    color: #4D4C59;
+    left: 220px;
 }
 
 p {
@@ -72,6 +78,8 @@ p {
     font-size: 14px;
     font-weight: 400;
     color: #9C9AB6;
+    margin-top: 25px;
+    margin-bottom: 31px;
 }
 
 button {
@@ -79,7 +87,6 @@ button {
     height: 46px;
     border-radius: 10px;
     border: none;
-    /* float: left; */
     background-color: #6C63FF;
     color: white;
     font-family: 'Poppins', sans-serif;
