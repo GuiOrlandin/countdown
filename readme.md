@@ -20,7 +20,7 @@ Uma pagina informando quanto tempo falta para o lançamento de um site, produto 
 
 ## 🎞 Demo
 
-<img src="./assets/demo.png">
+<img src="/assets/images/demo.png">
 
 ## ⚙ Features
 
