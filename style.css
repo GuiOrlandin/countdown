@@ -8,6 +8,7 @@
 body {
  display: flex;
  flex-direction: column;
+ justify-content: space-between;
  align-items: center;
  min-height: 100vh;
 }
@@ -19,8 +20,9 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* max-width: 486px; */
+    max-width: 490px;
 }
 
 h1 {
@@ -38,13 +40,13 @@ h1 {
 #countdown {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 42px;
     width: 100%;
-    /* padding: 0 40px; */
 }
 
 .time {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 19px;
@@ -64,12 +66,19 @@ h1 {
     color: #4D4C59;
 }
 
-.time .colon {
+.time-and-colon {
+    display: flex;
+    position: relative;
     font-family: 'Poppins', sans-serif;
+
+}
+
+.time-and-colon h1{
+    position: absolute;
+    color: #4D4C59;
     font-size: 72px;
     font-weight: 400;
-    color: #4D4C59;
-    left: 220px;
+    right: -32px;
 }
 
 p {
