@@ -3,7 +3,7 @@ const horasEl = document.querySelector("#horas")
 const minutosEl = document.querySelector("#minutos")
 const segundosEl = document.querySelector("#segundos")
 
-const dataFinal = "1 Jan 2023"
+const dataFinal = "1 Jan 2024"
 
 function countdown() {
     const dataEsperada = new Date(dataFinal);
